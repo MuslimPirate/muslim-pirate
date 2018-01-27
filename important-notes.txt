@@ -1,0 +1,23 @@
+#1  :   since we'll use ES6
+        then [babel] will transpile ES6 down to ES5
+        the browsers only knows ES5
+
+#2  :   there's ES6 features that [babel] can't transpile
+        features like: array.form, map, promise, ...
+        so using [babel-polyfill] will solve this issue
+        [babel-polyfill] is heavy (50 KB)
+        but you can pull the polyfills you need instead.
+
+#3  :   [webpack] is a tool that will help us to compile
+        JavaScript into a single minified file that works
+        in the browser.
+
+#4  :   [ESlint] will alert us when we make mistakes in code
+
+#5  :   var x = createClass(
+            {
+                render : function(){
+                    <tag></tag>
+                }
+            }
+        );

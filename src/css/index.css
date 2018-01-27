@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.App {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(104, 2, 2);
+}
